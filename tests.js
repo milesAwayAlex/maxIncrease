@@ -20,4 +20,7 @@ describe('maxInc', function() {
   it('returns 34 when checking [11, 40, 38, 35, 31, 24, 45]', () => {
     expect(maxInc([11, 40, 38, 35, 31, 24, 45])).to.equal(34);
   });
+  it('returns 34 when checking [40, 11, 38, 35, 45, 31, 24]', () => {
+    expect(maxInc([40, 11, 38, 35, 45, 31, 24])).to.equal(34);
+  });
 });
