@@ -1,0 +1,24 @@
+{
+  "name": "maxincrease",
+  "version": "1.0.0",
+  "description": "Returns maximum increase for the given graph",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesAwayAlex/maxIncrease.git"
+  },
+  "author": "Alex Mozgovoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milesAwayAlex/maxIncrease/issues"
+  },
+  "homepage": "https://github.com/milesAwayAlex/maxIncrease#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
+  }
+}
